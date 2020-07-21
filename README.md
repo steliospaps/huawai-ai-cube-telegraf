@@ -37,7 +37,7 @@ then edit /etc/telegraf/telegraf.conf:
 
 ```
 [[inputs.exec]]
-  commands=["/home/username/bin/router-metrics-telegraph.sh"]
+  commands=["/home/username/bin/router-metrics-telegraf.sh"]
   name_override="router"
   data_format="influx"
 ```
